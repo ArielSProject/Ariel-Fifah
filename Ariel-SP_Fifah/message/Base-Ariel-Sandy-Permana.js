@@ -498,6 +498,7 @@ const MenuList = `✘ *I N F O - B O T*
 
 > adiwajshing [ Baileys ]
 > Ariel SP
+> Fifah
 > Rifza
 > Arifi Razzaq 
 > Deff
@@ -3977,7 +3978,8 @@ break
      sock.sendMessage(from, buttooooonMessage, { quoted: m })
    }
    break
-  case 'youtubeariel3':{
+  case 'ytmp3':
+  case 'youtubemp3':{
 if (q.includes('--help')) return reply(examlink) 
   if (args.length < 1) return reply('linknya?')
    try{
@@ -3996,7 +3998,8 @@ if (q.includes('--help')) return reply(examlink)
    }
   }
   break
-  case 'youtubeariel4':{
+  case 'ytmp4':
+  case 'youtubemp4':{
 if (q.includes('--help')) return reply(examlink) 
   if (args.length < 1) return reply('linknya?')
    try{
@@ -4535,14 +4538,14 @@ if (q.includes('--help')) return reply(examquery)
   	index: 1, 
       quickReplyButton: {
        displayText: '🎧 Audio', 
-       id: `#youtubeariel3 ${q}`
+       id: `#ytmp3 ${q}`
        }
        }, 
        {
      index: 2, 
       quickReplyButton: {
        displayText: '🎥 Video', 
-       id: `#youtubeariel4 ${q}`
+       id: `#ytmp4 ${q}`
       } 
     },
      ]
